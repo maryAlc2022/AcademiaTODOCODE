@@ -32,10 +32,12 @@ boolean bandera =true;
 String resp;
         while (bandera==true) {   
             System.out.println("el valor de mi bandera es: "+ bandera);
-            System.out.println("estas actualmente suscripto" + bandera);
+            System.out.println("estas actualmente suscripto: " + bandera);
             System.out.println("queres seguir en todocode?");
           resp=tec.nextLine();
-          //si quiero comparar un texto es igual a otro 
+          //si quiero comparar un texto es igual a otro se usa equals
+          //y para ignorar mayuscula de minisculas ( touper, tulowers)
+          
           
             if (resp.equalsIgnoreCase("si")) {
                 bandera=false;
