@@ -25,6 +25,7 @@ public class EjerciciocionWhile {
             contador++;
         }
    */
+     
         
 //EJEMPLO CONTROLADO POR CENTINELLA
 
@@ -38,8 +39,11 @@ String resp;
           //si quiero comparar un texto es igual a otro se usa equals
           //y para ignorar mayuscula de minisculas ( touper, tulowers)
           
+          //en java para comparar un texto con otro se ocupa un metodo de los String 
+          //String es una clase
           
             if (resp.equalsIgnoreCase("si")) {
+                //cuando la funcion se cumpla ahi sale del bucle.
                 bandera=false;
             }     
             System.out.println("************************");
