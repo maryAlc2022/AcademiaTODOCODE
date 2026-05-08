@@ -19,9 +19,7 @@ public class EjemploSwitch {
         // TODO code application logic here
         
          Scanner tec= new Scanner(System.in );
-    
-    //declaracion de las varibles
-    //ejecucion programada para lote automatico
+   
             
             
 int dia;

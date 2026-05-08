@@ -10,15 +10,15 @@ public class EjercicioFor {
     public static void main(String[] args) {
        
         int suma=0;
-        //esta compuesta por 3 partes: inicio de variable, condicion de fin del ciclo,modificacion de la variable 
+        //esta compuesta por 3 partes: inicio de variable, condicion de fin del ciclo,modificacion de la variable , incremento o descremento
         for (int i = 0; i < 10; i++) {
             System.out.println("estoy en la vuelta numero: "+ (i+1));
             suma=5+i;
             
-            if (suma>=5) {
-                i=11;
+            if (suma>=7) {
+               i=11;
             }
-            
+           
         }
         
         

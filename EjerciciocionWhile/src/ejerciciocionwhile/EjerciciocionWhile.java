@@ -30,6 +30,7 @@ public class EjerciciocionWhile {
 //EJEMPLO CONTROLADO POR CENTINELLA
 
 boolean bandera =true;
+
 String resp;
         while (bandera==true) {   
             System.out.println("el valor de mi bandera es: "+ bandera);
@@ -47,6 +48,8 @@ String resp;
                 bandera=false;
             }     
             System.out.println("************************");
+            
+        
         }
 
 
