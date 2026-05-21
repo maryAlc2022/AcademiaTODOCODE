@@ -18,6 +18,8 @@ public class Ejercicio2 {
 //“che… lo que escribió el usuario es un número?”
 //y eso se logra usando hasNextInt();
         if (tec.hasNextInt()) {
+            //SI ESTO QUE ENTRO POR TECLADO REALMENTE ES UN NUMERO, ENTONCES A NUMERO RECIEN LE ASIGONO NEXTINT(9;
+            
             numero=tec.nextInt();
        
         for (int i = 0; i < numero; i++) {
@@ -31,6 +33,6 @@ public class Ejercicio2 {
 
     
     
-    
+    //EJECUCCION DE PROCESO
     
 }

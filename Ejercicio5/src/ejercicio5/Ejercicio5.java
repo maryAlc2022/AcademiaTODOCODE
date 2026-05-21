@@ -14,12 +14,16 @@ public class Ejercicio5 {
         String palabra;
         
         System.out.println("ingrese la palabra q quiera mostrar: ");
-        palabra=teclado.next();
+        palabra=teclado.nextLine();
         
-        while (palabra.equalsIgnoreCase("salir")) {            
+        //mientras mi palabra no sea salir, se mostrara por pantalla
+        while (!palabra.equalsIgnoreCase("salir")) {            
             System.out.println("la palabra es: " + palabra);
+              System.out.println("ingrese la palabra q quiera mostrar: ");
+        palabra=teclado.nextLine();
+             
+       System.out.println("gracias por usar nuestro programa");
         }
-        
     }
     
 }

@@ -50,6 +50,7 @@ String nombreDia;
              
              
         }
+        
         System.out.println("el dia de la semana elegido es: "+nombreDia);
         
         
